@@ -1,0 +1,21 @@
+.grid-containert {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 1px;
+  height: 100vh;
+  width: 100vw;
+  background-color: #eee;
+}
+
+.cellt {
+  background-color: black;
+  border-radius: 20%;
+  transition: transform 0.1s ease-in-out;
+}
+
+.hoveredt {
+  /* transform: skewX(-10deg) ;
+  border-radius: 50%; */
+  /* background-color: #eee; */
+}

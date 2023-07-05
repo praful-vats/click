@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value as needed */
+    grid-template-columns: repeat(14, 1fr);
+    /* grid-gap: 4px; */
+  }
+  
+  .grid-container span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+  }
+  

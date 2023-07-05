@@ -1,0 +1,21 @@
+.grid-containere {
+  display: grid;
+  grid-template-columns: repeat(19, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  gap: 5px;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.celle {
+  background-color: red;
+  border-radius: 5%;
+  transition: transform 0.1s ease-in-out;
+}
+
+.hoverede {
+  transform: scale(1.09);
+  border-radius: 50%;
+  background-color: #eee;
+}

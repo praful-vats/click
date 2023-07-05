@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+  }
+  .grid {
+    margin-left: 33%;
+    margin-top: 6%;
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    gap: 1px;
+  }
+  
+  .cell {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 20%;
+    transition: all 1s ease-in-out;
+  }
+  
+  .circle {
+    border-radius: 50%;
+  }
+  
+  .pentagon {
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+  }
+  

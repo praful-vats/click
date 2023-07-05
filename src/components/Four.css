@@ -1,0 +1,22 @@
+.grid-containerf {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    /* gap: 10px; */
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+  }
+  
+  .cellf {
+    background-color: black;
+    /* border-radius: 50%; */
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .hoveredf {
+    /* transform: scale(1); */
+    /* border-radius: 5%; */
+    background-color: red;
+  }
+  
